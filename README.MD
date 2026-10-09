@@ -1,4 +1,4 @@
-# Microservicios — Penguin Academy (CodePro)
+# Microservicios
 
 Sistema simple dividido en **3 microservicios** para una tienda: **productos**, **inventario** y **pedidos**.  
 Cada servicio tiene **responsabilidad única**, **API REST**, **token** propio y **base de datos independiente** (SQLite).
@@ -119,12 +119,4 @@ curl -H "Authorization: Bearer <TOKEN>" http://localhost:5002/stock/1
 * **HTTP + JSON** simple y predecible.
 * **Healthchecks `/check`** para verificar estado rápido.
 
-## Licencia
-
-MIT (o la que desees).
-
-```
-
-¿Querés que lo suba con algún ajuste (autor, licencia específica, comandos exactos de tus `app.py`, etc.)?
-::contentReference[oaicite:0]{index=0}
 ```
